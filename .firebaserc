@@ -1,5 +1,18 @@
 {
   "projects": {
     "default": "portfolio-20746"
-  }
+  },
+  "targets": {
+    "portfolio-20746": {
+      "hosting": {
+        "portfolioMain": [
+          "portfolio-20746"
+        ],
+        "portfolioSec": [
+          "luizcarlosjunior"
+        ]
+      }
+    }
+  },
+  "etags": {}
 }
