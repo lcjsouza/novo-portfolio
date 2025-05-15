@@ -68,19 +68,13 @@
 					"builder": "ngx-build-plus:dev-server",
 					"configurations": {
 						"production": {
-							"browserTarget": "portfolio:build:production",
-							"extraWebpackConfig": "webpack.prod.config.js"
+							"browserTarget": "portfolio:build:production"
 						},
 						"development": {
 							"browserTarget": "portfolio:build:development"
 						}
 					},
-					"defaultConfiguration": "development",
-					"options": {
-						"port": 4200,
-						"publicHost": "http://localhost:4200",
-						"extraWebpackConfig": "webpack.config.js"
-					}
+					"defaultConfiguration": "development"
 				},
 				"extract-i18n": {
 					"builder": "ngx-build-plus:extract-i18n",
